@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-image: url('vasan.jpeg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: 100% 100%;
+            }
+        </style>
+        <h1 style="text-align:center;"><i>Job Application Form</i></h1>
+    </head>
+    <body>
+
+          <center><label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="address">Address:</label>
+            <input type="address" id="address" name="address"><br><br>
+            <label for="city">City</label>
+            <select name="city" id="city">
+                    <option value="nellore">Nellore</option>
+                    <option value="bangalore">Bangalore</option>
+                    <option value="chirala">Chirala</option>
+                    <option value="amaravathi">Amaravathi</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="westgodavari">West Godavari</option>
+                </select> <br><br>
+            <label for="state">State</label>
+                <input list="states" name="state" id="state">
+                <datalist id="states">
+                    <option value="AndhraPradesh">
+                    <option value="ArunachalPradesh">
+                    <option value="Telangana">
+                    
+    </datalist><br><br>
+                <label for="country"><b>Country</b></label>
+                <input list="countries" name="country" id="country">
+                <datalist id="countries">
+                    <option value="Andaman and Nicobar">
+                    <option value="Brazil">
+                    <option value="Australia">
+                    <option value="India">
+                    <option value="Canada">
+                    <option value="U.S.A">
+                </datalist><br><br>
+                <label for="pincode"><b>Pin Code:</b></label>  
+                <input type="tel" id="pincode" name="pincode"><br><br>
+                <label for="education"><b>Education Level:*</b></label>
+                <select name="education" id="education">
+                    <option value="B.Tech">Bachelor of Technology</option>
+                    <option value="degree">Degree</option>
+                    <option value="arts">Arts and Science</option>
+                    <option value="M.Tech">Master in Technology</option>
+                    </select><br><br>
+                    <label for="education_type"><b>Education Type:*</b></label>
+                <select name="education_type" id="education_type">
+                    <option value="ECE">Electronics and Communication</option>
+                    <option value="EEE">Electrics</option>
+                    <option value="CSE">Computer Science</option>
+                    <option value="Mech">Mechanical</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="civil"> Civil Engineering</option>
+                    </select><br><br>
+                    <label for="file">Resume*</label>
+                    <input type="upload" name="file" placeholder="upload file"><br><br>
+                    <input name="submit" type="submit" value="submit" /><br><br>
+                    <label for="letter"><b>Cover Letter:</b></label><br><br>
+
+            <textarea name="letter" rows="7" cols="40" style="width:100%;max-width: 535px"></textarea><br><br>
+            <label><b>Are You Employed? :</b>
+                <input type="checkbox" checked="unchecked" name="remember"> yes
+                <input type="checkbox" checked="unchecked" name="remember"> No
+              </label><br><br>
+              <label for="experience"><b>Years of Experience:</b></label>
+              <select name="experience" id="experience">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+              </select><br><br>
+              <label for="apply"><b>Jobs You Want to Apply:*</b></label>
+              <select name="experience" id="experience">
+                  <option value="test">Tester</option>
+                  <option value="analyst">Analyst</option>
+                  <option value="developer">Developer</option>
+              </select><br><br>
+              <input name="submit" type="submit" value="submit" />
+              </center>
+    </body>
+</html>
